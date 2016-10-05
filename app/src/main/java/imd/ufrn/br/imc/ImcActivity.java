@@ -16,6 +16,7 @@ public class ImcActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_imc);
 
+        //apenas um comentário
         tvResultado = (TextView) findViewById(R.id.tvResultado);
 
         double imcCalculado = 0;
